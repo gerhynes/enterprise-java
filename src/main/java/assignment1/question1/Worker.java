@@ -24,23 +24,27 @@ class Worker {
         this.coWorker = coWorker;
     }
 
+    // Generate hours worked
     public void work() {
         while(age++ < RETIREMENT_AGE)
             work(1600);
     }
 
+    // Calculate total earnings and delegate work if coworker available
     public void work(int hours) {
-        for(int i = 1; i<=hours; i++) {
+        for(int i = 1; i <= hours; i++) {
             earned += hourlyIncome;
             if(coWorker!=null && i%5==0)
                 delegate(1); // from time to time
         }
     }
 
+    // Delegate work to coworker
     private void delegate(int hours) {
         coWorker.work(hours);
     }
 
+    // Access worker info
     public String info() {
         return name + " earned " + earned;
     }
