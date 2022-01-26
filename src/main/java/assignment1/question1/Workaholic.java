@@ -7,6 +7,7 @@ public class Workaholic extends Worker {
     private int age = 0;
     private float earned = 0.0f;
     private float hourlyIncome = 0.0f;
+    private int hoursWorked = 2000;
 
     // Default constructor
     public Workaholic(){
@@ -26,7 +27,7 @@ public class Workaholic extends Worker {
     @Override
     public void work() {
         while (age++ < RETIREMENT_AGE)
-            work(2000);
+            work(hoursWorked);
     }
 
     // Calculate total earnings

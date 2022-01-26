@@ -7,6 +7,7 @@ class Worker {
     private float earned = 0.0f;
     private float hourlyIncome = 0.0f;
     private Worker coWorker = null;
+    private int hoursWorked = 1600;
 
     // Default constructor
     public Worker() {
@@ -27,7 +28,7 @@ class Worker {
     // Generate hours worked
     public void work() {
         while(age++ < RETIREMENT_AGE)
-            work(1600);
+            work(hoursWorked);
     }
 
     // Calculate total earnings and delegate work if coworker available
