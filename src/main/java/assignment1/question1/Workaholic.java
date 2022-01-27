@@ -1,9 +1,8 @@
 package assignment1.question1;
 
 public class Workaholic extends Worker {
-    public static final int RETIREMENT_AGE = 65;
     public static final int OVERTIME = 500;
-    private String name = null;
+    private String name = "";
     private int age = 0;
     private float earned = 0.0f;
     private float hourlyIncome = 0.0f;
@@ -11,9 +10,8 @@ public class Workaholic extends Worker {
 
     // Default constructor
     public Workaholic(){
-        this.name = null;
-        this.hourlyIncome = 0.0f;
-        this.age = 0;
+        // Use Worker constructor
+        super();
     }
 
     // Overloaded constructor
@@ -41,7 +39,7 @@ public class Workaholic extends Worker {
     }
 
     // Access workaholic info
-    public String info() {
-        return name + " earned " + earned;
-    }
+//    public String info() {
+//        return name + " earned " + earned;
+//    }
 }

@@ -3,6 +3,7 @@ package assignment1.question2;
 import java.util.Scanner;
 
 public class Octagon extends GeometricFigure2 implements ConsoleIO, ComparableGeometricFigure<GeometricFigure2> {
+    // Variables
     private double side = 0.0;
     private double area = 0.0;
 
@@ -73,6 +74,33 @@ public class Octagon extends GeometricFigure2 implements ConsoleIO, ComparableGe
             return -1;
         } else {
             return 0;
+        }
+    }
+
+    // main method for testing purposes
+    public static void main(String[] args) {
+        // Initialize octagons
+        Octagon octagon1 = new Octagon(12);
+        Octagon octagon2 = new Octagon(15);
+
+        // Print octagon values
+        octagon1.writeToConsole();
+        octagon2.writeToConsole();
+
+        // Update side from user input
+        octagon2.updateFromConsole();
+
+        // Print updated octagon values
+        octagon2.writeToConsole();
+
+        // Compare octagon areas
+        int result = octagon1.compareTo(octagon2);
+        if(result == 1){
+            System.out.println("octagon1 has the larger area");
+        } else if (result == -1) {
+            System.out.println("octagon2 has the larger area");
+        } else {
+            System.out.println("Both octagons have the same area");
         }
     }
 }
