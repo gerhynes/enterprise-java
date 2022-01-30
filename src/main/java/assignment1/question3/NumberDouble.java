@@ -24,6 +24,7 @@ public class NumberDouble extends Number {
     }
 
     // Overrides getNumber from Number
+    // Allows access to value stored in NumberDouble
     @Override
     double getNumber() {
         return this.value;

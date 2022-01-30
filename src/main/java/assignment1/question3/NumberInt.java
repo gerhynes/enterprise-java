@@ -24,6 +24,7 @@ public class NumberInt extends Number {
     }
 
     // Overrides getNumber from Number
+    // Allows access to value stored in NumberInt
     @Override
     double getNumber() {
         return this.value;

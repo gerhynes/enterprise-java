@@ -1,6 +1,7 @@
 package assignment1.question3;
 
 abstract class Number {
+    // To be implemented in NumberDouble and NumberInt
     abstract double getNumber();
 
     // main method for testing purposes

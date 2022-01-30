@@ -10,18 +10,21 @@ abstract class GeometricFigure3 {
         filled = false;
     }
 
+    // Can be ignored for this example
     public boolean isFilled() {
         return filled;
     }
 
+    // Can be ignored for this example
     public void setFilled(boolean filled) {
         this.filled = filled;
     }
 
+    // To be overridden in GenericCircle
     public void display() {
         System.out.println("This is some geometric figure.");
     }
 
+    // To be implemented in GenericCircle
     public abstract NumberDouble calcArea();
 }
-
