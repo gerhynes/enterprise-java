@@ -1,45 +1,24 @@
 package assignment1.question1;
 
 public class Workaholic extends Worker {
+    // Variables
     public static final int OVERTIME = 500;
-    private String name = "";
-    private int age = 0;
-    private float earned = 0.0f;
-    private float hourlyIncome = 0.0f;
     private int hoursWorked = 2000;
 
     // Default constructor
     public Workaholic(){
-        // Use Worker constructor
         super();
+        // ensure hoursWorked includes OVERTIME
+        super.setHoursWorked(hoursWorked + OVERTIME);
     }
 
     // Overloaded constructor
     public Workaholic(String name, float hourlyIncome, int age) {
-        this.name = name;
-        this.hourlyIncome = hourlyIncome;
-        this.age = age;
+        super();
+        super.setName(name);
+        super.setHourlyIncome(hourlyIncome);
+        super.setAge(age);
+        // ensure hoursWorked includes OVERTIME
+        super.setHoursWorked(hoursWorked + OVERTIME);
     }
-
-    // Generate hours worked
-    @Override
-    public void work() {
-        while (age++ < RETIREMENT_AGE)
-            work(hoursWorked);
-    }
-
-    // Calculate total earnings
-    @Override
-    public void work(int hours) {
-        // hours and OVERTIME can be combined as hourlyIncome is the same for both
-        int totalHoursWorked = hours + OVERTIME;
-        for (int i = 1; i <= totalHoursWorked; i++) {
-            earned += hourlyIncome;
-        }
-    }
-
-    // Access workaholic info
-//    public String info() {
-//        return name + " earned " + earned;
-//    }
 }

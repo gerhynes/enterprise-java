@@ -1,6 +1,7 @@
 package assignment1.question1;
 
 class Worker {
+    // Variables
     public static final int RETIREMENT_AGE = 65;
     private String name = "";
     private int age = 0;
@@ -25,9 +26,42 @@ class Worker {
         this.coWorker = coWorker;
     }
 
-    // Generate hours worked
+    // Getter and setter methods
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public float getHourlyIncome() {
+        return hourlyIncome;
+    }
+
+    public void setHourlyIncome(float hourlyIncome) {
+        this.hourlyIncome = hourlyIncome;
+    }
+
+    public int getHoursWorked() {
+        return hoursWorked;
+    }
+
+    public void setHoursWorked(int hoursWorked) {
+        this.hoursWorked = hoursWorked;
+    }
+
+    // Calculate hours worked
     public void work() {
-        while(age++ < RETIREMENT_AGE)
+        while(this.age++ < RETIREMENT_AGE)
             work(hoursWorked);
     }
 
@@ -36,7 +70,7 @@ class Worker {
         for(int i = 1; i <= hours; i++) {
             earned += hourlyIncome;
             if(coWorker != null && i % 5 == 0)
-                delegate(1); // from time to time
+                delegate(1); // delegate work from time to time
         }
     }
 
@@ -47,7 +81,7 @@ class Worker {
 
     // Access worker info
     public String info() {
-        return this.name + " earned " + this.earned;
+        return name + " earned " + earned;
     }
 
     // main method for testing purposes
