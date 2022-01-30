@@ -11,14 +11,14 @@ public class GenericCircle<T extends Number> extends GeometricFigure3 {
 
     // Updated calcArea method
     public NumberDouble calcArea() {
-        double areaDouble = radius.getNumber() * radius.getNumber() * PI;
-        NumberDouble areaNumberDouble = new NumberDouble(areaDouble);
-        return areaNumberDouble;
+        double areaAsDouble = radius.getNumber() * radius.getNumber() * PI;
+        NumberDouble areaAsNumberDouble = new NumberDouble(areaAsDouble);
+        return areaAsNumberDouble;
     }
 
     // Overrides display method in GeometricFigure3
     @Override
     public void display() {
-        System.out.println("This is a circle with radius " + radius.getNumber());
+        System.out.println("Circle with radius " + radius.getNumber() + " and area: " + calcArea().getNumber());
     }
 }

@@ -2,7 +2,7 @@ package assignment1.question2;
 
 import java.util.Scanner;
 
-public class Octagon extends GeometricFigure2 implements ConsoleIO, ComparableGeometricFigure<GeometricFigure2> {
+public class Octagon extends GeometricFigure2 implements ConsoleIO, ComparableGeometricFigure<Octagon> {
     // Variables
     private double side = 0.0;
     private double area = 0.0;
@@ -37,12 +37,14 @@ public class Octagon extends GeometricFigure2 implements ConsoleIO, ComparableGe
     }
 
     // Implements calcArea from GeometricFigure2
+    // Uses area calculation specific to regular octagons
     public double calcArea(){
         // Area of regular octagon = 2 × (side length)² × (1 + sqrt(2))
         return 2 * (side * side) * (1 + Math.sqrt(2)) ;
     }
 
     // Implements updateFromConsole from ConsoleIO
+    // Updates length of octagon side based off user input
     public void updateFromConsole(){
         // Initialize scanner
         Scanner scanner = new Scanner(System.in);
@@ -60,17 +62,18 @@ public class Octagon extends GeometricFigure2 implements ConsoleIO, ComparableGe
     }
 
     // Implements writeToConsole from ConsoleIO
+    // Print octagon side length and total area
     public void writeToConsole(){
         System.out.println("Octagon: side = " + side + " area = " + calcArea());
     }
 
     // Implements compareTo from ComparableGeometricFigure
-    // TODO make sure compareTo only works for Octagons
+    // Compares current octagon with other octagon based on total area
     @Override
-    public int compareTo(GeometricFigure2 otherFigure) {
-        if(area > otherFigure.calcArea()){
+    public int compareTo(Octagon otherOctagon) {
+        if(area > otherOctagon.calcArea()){
             return 1;
-        } else if (area < otherFigure.calcArea()){
+        } else if (area < otherOctagon.calcArea()){
             return -1;
         } else {
             return 0;
@@ -87,13 +90,13 @@ public class Octagon extends GeometricFigure2 implements ConsoleIO, ComparableGe
         octagon1.writeToConsole();
         octagon2.writeToConsole();
 
-        // Update side from user input
+        // Update octagon side length from user input
         octagon2.updateFromConsole();
 
         // Print updated octagon values
         octagon2.writeToConsole();
 
-        // Compare octagon areas
+        // Compare octagon areas and print result
         int result = octagon1.compareTo(octagon2);
         if(result == 1){
             System.out.println("octagon1 has the larger area");
