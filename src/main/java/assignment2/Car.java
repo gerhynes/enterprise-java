@@ -7,19 +7,18 @@ public class Car {
     private String colour;
 
     public Car(){
-        this.registration = "";
         this.saleValue = (int) ((Math.random() * (20000 - 1000)) + 1000);
-        this.colour = COLOURS[randomNumber(COLOURS.length -1, 0)];
+        this.colour = COLOURS[randomNumber(COLOURS.length - 1, 0)];
         this.registration = generateRegistration();
     }
 
     public String generateRegistration(){
-        String[] years = {"10", "15", "22", "19", "14"};
+        String[] years = {"182", "151", "221", "191", "142"};
         String[] counties = {"G", "D", "W", "MO", "c"};
         String year = years[randomNumber(years.length - 1, 0)];
-        String county = counties[randomNumber(counties.length -1, 0)];
+        String county = counties[randomNumber(counties.length - 1, 0)];
         int sequence = randomNumber(99999, 10000);
-        return year + county + sequence;
+        return year + "-" + county + "-" + sequence;
     }
 
     public int randomNumber (int max, int min) {
