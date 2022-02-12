@@ -3,12 +3,14 @@ package assignment2;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Seller implements Runnable{
-    private static int sellerID;
-    private static AtomicInteger totalSellers;
-    private static AtomicInteger totalSales;
+    // variables
+    private static AtomicInteger sellerID = new AtomicInteger();
+    private static AtomicInteger totalSellers = new AtomicInteger();
+    private static AtomicInteger totalSales = new AtomicInteger();
     private Car car;
     private CarShowroom carShowroom;
 
+    // default constructor
     public Seller(CarShowroom carShowroom){
         this.carShowroom = carShowroom;
         this.car = new Car();
@@ -18,7 +20,33 @@ public class Seller implements Runnable{
     @Override
     public void run(){
         // Assign new sellerID
-        this.sellerID++;
-        System.out.println("A new seller #" + id + " just appeared.");
+        sellerID.incrementAndGet();
+        System.out.println("A new seller #" + sellerID + " just appeared.");
+
+        synchronized (carShowroom) {
+            while (carShowroom.isFull()){
+                System.out.println("Seller " + sellerID + " is trying to sell a car, but the showroom is full.");
+                try {
+                    // wait for space in carShowroom
+                    carShowroom.wait();
+                } catch(InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            // add car to carShowroom
+            carShowroom.addCar(car);
+
+            // increment totalSellers
+            totalSellers.getAndIncrement();
+            // increment totalSales
+            totalSales.getAndIncrement();
+
+            System.out.println("Seller " + sellerID + " sold their " +car.toString() + " to the showroom.");
+            System.out.println("This is sale number " + totalSales);
+
+            // notify other threads
+            carShowroom.notifyAll();
+        }
     }
 }
