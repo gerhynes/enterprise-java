@@ -2,7 +2,6 @@ package assignment2;
 
 import java.util.ArrayList;
 
-
 public class CarShowroom {
     // variables
     private int capacity;

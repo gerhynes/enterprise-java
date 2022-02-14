@@ -10,30 +10,32 @@ public class Main {
         // run carShowroom for 30 days
         int i = 1;
         while (i <= 30){
+            // Notify user of new day in carShowroom
             System.out.println("Day " + i + " beginning. There are " + carShowroom.getCars().size() + " cars in the showroom today.");
             i++;
 
             // Generate between 0 and 3 buyers and sellers per day
-            int randomInt = (int) ((Math.random() * (3 - 0)) + 0);
+            int randomBuyers = (int) ((Math.random() * (3 - 0)) + 0);
+            int randomSellers = (int) ((Math.random() * (3 - 0)) + 0);
 
-            for (int j = 0; j <= randomInt; j++){
-               Buyer buyer = new Buyer(carShowroom);
-               Thread buyerThread = new Thread(buyer);
-               buyerThread.start();
-            }
-
-            for (int j = 0; j <= randomInt; j++){
+            for (int j = 0; j <= randomSellers; j++){
                 Seller seller = new Seller(carShowroom);
                 Thread sellerThread = new Thread(seller);
                 sellerThread.start();
             }
 
+            for (int j = 0; j <= randomBuyers; j++){
+                Buyer buyer = new Buyer(carShowroom);
+                Thread buyerThread = new Thread(buyer);
+                buyerThread.start();
+            }
 
-//            try {
-//                TimeUnit.SECONDS.sleep(1);
-//            } catch (InterruptedException e) {
-//                e.printStackTrace();
-//            }
+            // Add 1 second delay between days
+            try {
+                TimeUnit.SECONDS.sleep(1);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 }

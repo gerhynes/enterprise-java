@@ -4,7 +4,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class Seller implements Runnable{
     // variables
-    private static AtomicInteger sellerID = new AtomicInteger();
+    private static int sellerID;
     private static AtomicInteger totalSellers = new AtomicInteger();
     private static AtomicInteger totalSales = new AtomicInteger();
     private Car car;
@@ -14,15 +14,15 @@ public class Seller implements Runnable{
     public Seller(CarShowroom carShowroom){
         this.carShowroom = carShowroom;
         this.car = new Car();
-        this.carShowroom.addCar(this.car);
     }
 
     @Override
     public void run(){
         // Assign new sellerID
-        sellerID.incrementAndGet();
+        sellerID++;
         System.out.println("A new seller #" + sellerID + " just appeared.");
 
+        // Make these operations thread safe
         synchronized (carShowroom) {
             while (carShowroom.isFull()){
                 System.out.println("Seller " + sellerID + " is trying to sell a car, but the showroom is full.");
