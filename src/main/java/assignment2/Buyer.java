@@ -35,15 +35,15 @@ public class Buyer implements Runnable{
             Car car = carShowroom.takeCar();
 
             // increment total buyers
-            totalBuyers.getAndIncrement();
+            totalBuyers.incrementAndGet();
             // increment total purchases
-            totalPurchases.getAndIncrement();
+            totalPurchases.incrementAndGet();
 
             System.out.println("Buyer #" + buyerID + " bought a " + car.toString());
             System.out.println("This is purchase number " + totalPurchases);
 
             // notify other threads
-            carShowroom.notifyAll();
+            carShowroom.notify();
         }
     }
 }

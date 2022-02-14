@@ -1,5 +1,7 @@
 package assignment2;
 
+import java.util.concurrent.TimeUnit;
+
 public class Main {
     public static void main(String[] args) {
         // Initialize carShowroom
@@ -13,19 +15,25 @@ public class Main {
 
             // Generate between 0 and 3 buyers and sellers per day
             int randomInt = (int) ((Math.random() * (3 - 0)) + 0);
+
             for (int j = 0; j <= randomInt; j++){
-                // instantiate buyer and seller objects
                Buyer buyer = new Buyer(carShowroom);
-               Seller seller = new Seller(carShowroom);
-
-               // instantiate buyer and seller threads
                Thread buyerThread = new Thread(buyer);
-               Thread sellerThread = new Thread(seller);
-
-               // start threads
                buyerThread.start();
-               sellerThread.start();
             }
+
+            for (int j = 0; j <= randomInt; j++){
+                Seller seller = new Seller(carShowroom);
+                Thread sellerThread = new Thread(seller);
+                sellerThread.start();
+            }
+
+
+//            try {
+//                TimeUnit.SECONDS.sleep(1);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
         }
     }
 }

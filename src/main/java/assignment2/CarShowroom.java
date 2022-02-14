@@ -2,15 +2,17 @@ package assignment2;
 
 import java.util.ArrayList;
 
+
 public class CarShowroom {
     // variables
-    private int capacity = 5;
-    private ArrayList<Car> cars = new ArrayList<Car>();
+    private int capacity;
+    private ArrayList<Car> cars;
 
     // Default constructor
-//    public CarShowroom(){
-//
-//    }
+    public CarShowroom(){
+        this.capacity = 5;
+        this.cars = new ArrayList<Car>();
+    }
 
     // Getters and setters
     public int getCapacity() {
@@ -42,11 +44,20 @@ public class CarShowroom {
 
     // add a car to the showroom
     public void addCar(Car car) {
-        this.cars.add(car);
+        synchronized (cars){
+            if(!isFull()){
+                this.cars.add(car);
+            }
+        }
     }
 
     // take a car from the showroom
     public Car takeCar(){
-        return cars.remove(0);
+        synchronized (cars) {
+            if(!isEmpty()){
+                return this.cars.remove(0);
+            }
+        }
+        return null;
     }
 }

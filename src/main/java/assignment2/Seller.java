@@ -38,15 +38,15 @@ public class Seller implements Runnable{
             carShowroom.addCar(car);
 
             // increment totalSellers
-            totalSellers.getAndIncrement();
+            totalSellers.incrementAndGet();
             // increment totalSales
-            totalSales.getAndIncrement();
+            totalSales.incrementAndGet();
 
             System.out.println("Seller " + sellerID + " sold their " +car.toString() + " to the showroom.");
             System.out.println("This is sale number " + totalSales);
 
             // notify other threads
-            carShowroom.notifyAll();
+            carShowroom.notify();
         }
     }
 }
