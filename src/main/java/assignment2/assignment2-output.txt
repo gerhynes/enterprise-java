@@ -1,0 +1,458 @@
+Day 1 beginning. There are 0 cars in the showroom today.
+A new seller #2 just appeared.
+A new seller #1 just appeared.
+Seller 2 sold their green car with registration 182-G-84353 worth €11184 to the showroom.
+This is sale number 1.
+A new buyer #1 just appeared.
+Buyer #1 bought a green car with registration 182-G-84353 worth €11184 from the showroom.
+This is purchase number 1.
+Seller 2 sold their black car with registration 191-D-11791 worth €3702 to the showroom.
+This is sale number 2.
+Day 2 beginning. There are 1 cars in the showroom today.
+A new seller #3 just appeared.
+Seller 3 sold their black car with registration 182-W-21019 worth €10983 to the showroom.
+This is sale number 3.
+A new buyer #2 just appeared.
+Buyer #2 bought a black car with registration 191-D-11791 worth €3702 from the showroom.
+This is purchase number 2.
+Day 3 beginning. There are 1 cars in the showroom today.
+A new seller #4 just appeared.
+Seller 4 sold their red car with registration 221-D-72121 worth €2159 to the showroom.
+This is sale number 4.
+A new seller #5 just appeared.
+Seller 5 sold their blue car with registration 182-D-82454 worth €13012 to the showroom.
+This is sale number 5.
+A new seller #6 just appeared.
+Seller 6 sold their blue car with registration 221-MO-98384 worth €8983 to the showroom.
+This is sale number 6.
+A new buyer #3 just appeared.
+Buyer #3 bought a black car with registration 182-W-21019 worth €10983 from the showroom.
+This is purchase number 3.
+Day 4 beginning. There are 3 cars in the showroom today.
+A new seller #7 just appeared.
+Seller 7 sold their blue car with registration 191-W-83346 worth €3758 to the showroom.
+This is sale number 7.
+A new seller #8 just appeared.
+Seller 8 sold their black car with registration 182-D-96807 worth €19826 to the showroom.
+This is sale number 8.
+A new seller #9 just appeared.
+Seller 9 is trying to sell a car, but the showroom is full.
+A new buyer #4 just appeared.
+Buyer #4 bought a red car with registration 221-D-72121 worth €2159 from the showroom.
+This is purchase number 4.
+Seller 9 sold their red car with registration 182-D-47991 worth €1890 to the showroom.
+This is sale number 9.
+Day 5 beginning. There are 5 cars in the showroom today.
+A new seller #10 just appeared.
+Seller 10 is trying to sell a car, but the showroom is full.
+A new seller #11 just appeared.
+Seller 11 is trying to sell a car, but the showroom is full.
+A new buyer #5 just appeared.
+Buyer #5 bought a blue car with registration 182-D-82454 worth €13012 from the showroom.
+This is purchase number 5.
+Seller 11 sold their red car with registration 191-W-85568 worth €18220 to the showroom.
+This is sale number 10.
+Seller 11 is trying to sell a car, but the showroom is full.
+Day 6 beginning. There are 5 cars in the showroom today.
+A new seller #12 just appeared.
+Seller 12 is trying to sell a car, but the showroom is full.
+A new seller #13 just appeared.
+Seller 13 is trying to sell a car, but the showroom is full.
+A new seller #14 just appeared.
+Seller 14 is trying to sell a car, but the showroom is full.
+A new buyer #6 just appeared.
+Buyer #6 bought a blue car with registration 221-MO-98384 worth €8983 from the showroom.
+This is purchase number 6.
+Seller 14 sold their red car with registration 191-G-36578 worth €5886 to the showroom.
+This is sale number 11.
+Seller 14 is trying to sell a car, but the showroom is full.
+A new buyer #7 just appeared.
+Buyer #7 bought a blue car with registration 191-W-83346 worth €3758 from the showroom.
+This is purchase number 7.
+Seller 14 sold their blue car with registration 151-MO-75688 worth €9427 to the showroom.
+This is sale number 12.
+Seller 14 is trying to sell a car, but the showroom is full.
+Day 7 beginning. There are 5 cars in the showroom today.
+A new seller #15 just appeared.
+Seller 15 is trying to sell a car, but the showroom is full.
+A new seller #16 just appeared.
+Seller 16 is trying to sell a car, but the showroom is full.
+A new buyer #8 just appeared.
+Buyer #8 bought a black car with registration 182-D-96807 worth €19826 from the showroom.
+This is purchase number 8.
+Seller 16 sold their green car with registration 191-G-60719 worth €4081 to the showroom.
+This is sale number 13.
+Seller 16 is trying to sell a car, but the showroom is full.
+A new buyer #9 just appeared.
+Buyer #9 bought a red car with registration 182-D-47991 worth €1890 from the showroom.
+This is purchase number 9.
+Seller 16 sold their black car with registration 221-W-18104 worth €12700 to the showroom.
+This is sale number 14.
+Seller 16 is trying to sell a car, but the showroom is full.
+Day 8 beginning. There are 5 cars in the showroom today.
+A new seller #17 just appeared.
+Seller 17 is trying to sell a car, but the showroom is full.
+A new seller #18 just appeared.
+Seller 18 is trying to sell a car, but the showroom is full.
+A new buyer #10 just appeared.
+Buyer #10 bought a red car with registration 191-W-85568 worth €18220 from the showroom.
+This is purchase number 10.
+Seller 18 sold their black car with registration 221-W-21524 worth €11799 to the showroom.
+This is sale number 15.
+Seller 18 is trying to sell a car, but the showroom is full.
+Day 9 beginning. There are 5 cars in the showroom today.
+A new seller #19 just appeared.
+Seller 19 is trying to sell a car, but the showroom is full.
+A new seller #20 just appeared.
+Seller 20 is trying to sell a car, but the showroom is full.
+A new buyer #11 just appeared.
+Buyer #11 bought a red car with registration 191-G-36578 worth €5886 from the showroom.
+This is purchase number 11.
+Seller 20 sold their black car with registration 221-D-30922 worth €12437 to the showroom.
+This is sale number 16.
+Seller 20 is trying to sell a car, but the showroom is full.
+A new buyer #12 just appeared.
+Buyer #12 bought a blue car with registration 151-MO-75688 worth €9427 from the showroom.
+This is purchase number 12.
+Seller 20 sold their red car with registration 151-D-21252 worth €5481 to the showroom.
+This is sale number 17.
+Seller 20 is trying to sell a car, but the showroom is full.
+Day 10 beginning. There are 5 cars in the showroom today.
+A new seller #21 just appeared.
+Seller 21 is trying to sell a car, but the showroom is full.
+A new seller #22 just appeared.
+Seller 22 is trying to sell a car, but the showroom is full.
+A new seller #23 just appeared.
+Seller 23 is trying to sell a car, but the showroom is full.
+A new buyer #13 just appeared.
+Buyer #13 bought a green car with registration 191-G-60719 worth €4081 from the showroom.
+This is purchase number 13.
+Seller 23 sold their green car with registration 221-D-16214 worth €7925 to the showroom.
+This is sale number 18.
+Seller 23 is trying to sell a car, but the showroom is full.
+A new buyer #14 just appeared.
+Buyer #14 bought a black car with registration 221-W-18104 worth €12700 from the showroom.
+This is purchase number 14.
+Seller 23 sold their black car with registration 151-W-74255 worth €8580 to the showroom.
+This is sale number 19.
+Seller 23 is trying to sell a car, but the showroom is full.
+Day 11 beginning. There are 5 cars in the showroom today.
+A new seller #24 just appeared.
+Seller 24 is trying to sell a car, but the showroom is full.
+A new seller #25 just appeared.
+Seller 25 is trying to sell a car, but the showroom is full.
+A new buyer #15 just appeared.
+Buyer #15 bought a black car with registration 221-W-21524 worth €11799 from the showroom.
+This is purchase number 15.
+Seller 25 sold their red car with registration 191-D-60203 worth €18710 to the showroom.
+This is sale number 20.
+Seller 25 is trying to sell a car, but the showroom is full.
+Day 12 beginning. There are 5 cars in the showroom today.
+A new seller #26 just appeared.
+Seller 27 is trying to sell a car, but the showroom is full.
+A new seller #27 just appeared.
+Seller 27 is trying to sell a car, but the showroom is full.
+A new buyer #16 just appeared.
+Buyer #16 bought a black car with registration 221-D-30922 worth €12437 from the showroom.
+This is purchase number 16.
+Seller 27 sold their red car with registration 182-MO-95052 worth €13702 to the showroom.
+This is sale number 21.
+Seller 27 is trying to sell a car, but the showroom is full.
+A new buyer #17 just appeared.
+Buyer #17 bought a red car with registration 151-D-21252 worth €5481 from the showroom.
+This is purchase number 17.
+Seller 27 sold their red car with registration 221-MO-96106 worth €13725 to the showroom.
+This is sale number 22.
+Seller 27 is trying to sell a car, but the showroom is full.
+A new buyer #18 just appeared.
+Buyer #18 bought a green car with registration 221-D-16214 worth €7925 from the showroom.
+This is purchase number 18.
+Seller 27 sold their black car with registration 151-G-76341 worth €11696 to the showroom.
+This is sale number 23.
+Seller 27 is trying to sell a car, but the showroom is full.
+Day 13 beginning. There are 5 cars in the showroom today.
+A new seller #28 just appeared.
+Seller 28 is trying to sell a car, but the showroom is full.
+A new seller #29 just appeared.
+Seller 29 is trying to sell a car, but the showroom is full.
+A new seller #30 just appeared.
+Seller 30 is trying to sell a car, but the showroom is full.
+A new buyer #19 just appeared.
+Buyer #19 bought a black car with registration 151-W-74255 worth €8580 from the showroom.
+This is purchase number 19.
+Seller 30 sold their blue car with registration 221-D-31313 worth €11117 to the showroom.
+This is sale number 24.
+Seller 30 is trying to sell a car, but the showroom is full.
+A new buyer #20 just appeared.
+Buyer #20 bought a red car with registration 191-D-60203 worth €18710 from the showroom.
+This is purchase number 20.
+Seller 30 sold their red car with registration 151-W-62815 worth €14946 to the showroom.
+This is sale number 25.
+Seller 30 is trying to sell a car, but the showroom is full.
+A new buyer #21 just appeared.
+Buyer #21 bought a red car with registration 182-MO-95052 worth €13702 from the showroom.
+This is purchase number 21.
+Seller 30 sold their black car with registration 191-D-72443 worth €16154 to the showroom.
+This is sale number 26.
+Seller 30 is trying to sell a car, but the showroom is full.
+Day 14 beginning. There are 5 cars in the showroom today.
+A new seller #31 just appeared.
+Seller 31 is trying to sell a car, but the showroom is full.
+A new buyer #22 just appeared.
+Buyer #22 bought a red car with registration 221-MO-96106 worth €13725 from the showroom.
+This is purchase number 22.
+Seller 31 sold their red car with registration 221-G-50357 worth €16723 to the showroom.
+This is sale number 27.
+Seller 31 is trying to sell a car, but the showroom is full.
+Day 15 beginning. There are 5 cars in the showroom today.
+A new seller #32 just appeared.
+Seller 32 is trying to sell a car, but the showroom is full.
+A new buyer #23 just appeared.
+Buyer #23 bought a black car with registration 151-G-76341 worth €11696 from the showroom.
+This is purchase number 23.
+Seller 32 sold their green car with registration 221-D-18555 worth €12410 to the showroom.
+This is sale number 28.
+Seller 32 is trying to sell a car, but the showroom is full.
+A new buyer #24 just appeared.
+Buyer #24 bought a blue car with registration 221-D-31313 worth €11117 from the showroom.
+This is purchase number 24.
+Seller 32 sold their black car with registration 221-G-42810 worth €4512 to the showroom.
+This is sale number 29.
+Seller 32 is trying to sell a car, but the showroom is full.
+Day 16 beginning. There are 5 cars in the showroom today.
+A new seller #33 just appeared.
+Seller 33 is trying to sell a car, but the showroom is full.
+A new buyer #25 just appeared.
+Buyer #25 bought a red car with registration 151-W-62815 worth €14946 from the showroom.
+This is purchase number 25.
+Seller 33 sold their blue car with registration 151-W-62634 worth €14998 to the showroom.
+This is sale number 30.
+Seller 33 is trying to sell a car, but the showroom is full.
+Day 17 beginning. There are 5 cars in the showroom today.
+A new seller #34 just appeared.
+Seller 34 is trying to sell a car, but the showroom is full.
+A new seller #35 just appeared.
+Seller 35 is trying to sell a car, but the showroom is full.
+A new buyer #26 just appeared.
+Buyer #26 bought a black car with registration 191-D-72443 worth €16154 from the showroom.
+This is purchase number 26.
+Seller 35 sold their black car with registration 151-G-44317 worth €12521 to the showroom.
+This is sale number 31.
+Seller 35 is trying to sell a car, but the showroom is full.
+Day 18 beginning. There are 5 cars in the showroom today.
+A new seller #36 just appeared.
+Seller 36 is trying to sell a car, but the showroom is full.
+A new buyer #27 just appeared.
+Buyer #27 bought a red car with registration 221-G-50357 worth €16723 from the showroom.
+This is purchase number 27.
+Seller 36 sold their blue car with registration 151-MO-18570 worth €8011 to the showroom.
+This is sale number 32.
+Seller 36 is trying to sell a car, but the showroom is full.
+A new buyer #28 just appeared.
+Buyer #28 bought a green car with registration 221-D-18555 worth €12410 from the showroom.
+This is purchase number 28.
+Seller 36 sold their green car with registration 151-MO-95925 worth €2792 to the showroom.
+This is sale number 33.
+Seller 36 is trying to sell a car, but the showroom is full.
+Day 19 beginning. There are 5 cars in the showroom today.
+A new seller #37 just appeared.
+Seller 37 is trying to sell a car, but the showroom is full.
+A new buyer #29 just appeared.
+Buyer #29 bought a black car with registration 221-G-42810 worth €4512 from the showroom.
+This is purchase number 29.
+Seller 37 sold their green car with registration 182-W-38706 worth €2603 to the showroom.
+This is sale number 34.
+Seller 37 is trying to sell a car, but the showroom is full.
+A new buyer #30 just appeared.
+Buyer #30 bought a blue car with registration 151-W-62634 worth €14998 from the showroom.
+This is purchase number 30.
+Seller 37 sold their red car with registration 191-W-15705 worth €6974 to the showroom.
+This is sale number 35.
+Seller 37 is trying to sell a car, but the showroom is full.
+A new buyer #31 just appeared.
+Buyer #31 bought a black car with registration 151-G-44317 worth €12521 from the showroom.
+This is purchase number 31.
+Seller 37 sold their red car with registration 191-D-75391 worth €19945 to the showroom.
+This is sale number 36.
+Seller 37 is trying to sell a car, but the showroom is full.
+Day 20 beginning. There are 5 cars in the showroom today.
+A new seller #38 just appeared.
+Seller 38 is trying to sell a car, but the showroom is full.
+A new seller #39 just appeared.
+Seller 39 is trying to sell a car, but the showroom is full.
+A new buyer #32 just appeared.
+Buyer #32 bought a blue car with registration 151-MO-18570 worth €8011 from the showroom.
+This is purchase number 32.
+Seller 39 sold their black car with registration 151-D-35878 worth €11852 to the showroom.
+This is sale number 37.
+Seller 39 is trying to sell a car, but the showroom is full.
+A new buyer #33 just appeared.
+Buyer #33 bought a green car with registration 151-MO-95925 worth €2792 from the showroom.
+This is purchase number 33.
+Seller 39 sold their black car with registration 151-W-47256 worth €1554 to the showroom.
+This is sale number 38.
+Seller 39 is trying to sell a car, but the showroom is full.
+Day 21 beginning. There are 5 cars in the showroom today.
+A new seller #40 just appeared.
+Seller 40 is trying to sell a car, but the showroom is full.
+A new seller #41 just appeared.
+Seller 41 is trying to sell a car, but the showroom is full.
+A new seller #42 just appeared.
+Seller 42 is trying to sell a car, but the showroom is full.
+A new buyer #34 just appeared.
+Buyer #34 bought a green car with registration 182-W-38706 worth €2603 from the showroom.
+This is purchase number 34.
+Seller 42 sold their blue car with registration 221-D-34484 worth €8178 to the showroom.
+This is sale number 39.
+Seller 42 is trying to sell a car, but the showroom is full.
+A new buyer #35 just appeared.
+Buyer #35 bought a red car with registration 191-W-15705 worth €6974 from the showroom.
+This is purchase number 35.
+Seller 42 sold their black car with registration 221-MO-92175 worth €8633 to the showroom.
+This is sale number 40.
+Seller 42 is trying to sell a car, but the showroom is full.
+Day 22 beginning. There are 5 cars in the showroom today.
+A new seller #43 just appeared.
+Seller 43 is trying to sell a car, but the showroom is full.
+A new seller #44 just appeared.
+Seller 44 is trying to sell a car, but the showroom is full.
+A new seller #45 just appeared.
+Seller 45 is trying to sell a car, but the showroom is full.
+A new buyer #36 just appeared.
+Buyer #36 bought a red car with registration 191-D-75391 worth €19945 from the showroom.
+This is purchase number 36.
+Seller 45 sold their black car with registration 151-G-89420 worth €13807 to the showroom.
+This is sale number 41.
+Seller 45 is trying to sell a car, but the showroom is full.
+Day 23 beginning. There are 5 cars in the showroom today.
+A new seller #46 just appeared.
+Seller 46 is trying to sell a car, but the showroom is full.
+A new seller #47 just appeared.
+Seller 47 is trying to sell a car, but the showroom is full.
+A new buyer #37 just appeared.
+Buyer #37 bought a black car with registration 151-D-35878 worth €11852 from the showroom.
+This is purchase number 37.
+Seller 47 sold their red car with registration 221-G-37514 worth €6066 to the showroom.
+This is sale number 42.
+Seller 47 is trying to sell a car, but the showroom is full.
+Day 24 beginning. There are 5 cars in the showroom today.
+A new seller #48 just appeared.
+Seller 48 is trying to sell a car, but the showroom is full.
+A new seller #49 just appeared.
+Seller 49 is trying to sell a car, but the showroom is full.
+A new seller #50 just appeared.
+Seller 50 is trying to sell a car, but the showroom is full.
+A new buyer #38 just appeared.
+Buyer #38 bought a black car with registration 151-W-47256 worth €1554 from the showroom.
+This is purchase number 38.
+Seller 50 sold their black car with registration 151-G-68858 worth €12123 to the showroom.
+This is sale number 43.
+Seller 50 is trying to sell a car, but the showroom is full.
+A new buyer #39 just appeared.
+Buyer #39 bought a blue car with registration 221-D-34484 worth €8178 from the showroom.
+This is purchase number 39.
+Seller 50 sold their green car with registration 191-W-79616 worth €3103 to the showroom.
+This is sale number 44.
+Seller 50 is trying to sell a car, but the showroom is full.
+Day 25 beginning. There are 5 cars in the showroom today.
+A new seller #51 just appeared.
+Seller 51 is trying to sell a car, but the showroom is full.
+A new seller #52 just appeared.
+Seller 52 is trying to sell a car, but the showroom is full.
+A new seller #53 just appeared.
+Seller 53 is trying to sell a car, but the showroom is full.
+A new buyer #40 just appeared.
+Buyer #40 bought a black car with registration 221-MO-92175 worth €8633 from the showroom.
+This is purchase number 40.
+Seller 53 sold their black car with registration 182-D-51954 worth €8725 to the showroom.
+This is sale number 45.
+Seller 53 is trying to sell a car, but the showroom is full.
+A new buyer #41 just appeared.
+Buyer #41 bought a black car with registration 151-G-89420 worth €13807 from the showroom.
+This is purchase number 41.
+Seller 53 sold their black car with registration 182-MO-50339 worth €13068 to the showroom.
+This is sale number 46.
+Seller 53 is trying to sell a car, but the showroom is full.
+A new buyer #42 just appeared.
+Buyer #42 bought a red car with registration 221-G-37514 worth €6066 from the showroom.
+This is purchase number 42.
+Seller 53 sold their black car with registration 151-W-34833 worth €10286 to the showroom.
+This is sale number 47.
+Seller 53 is trying to sell a car, but the showroom is full.
+Day 26 beginning. There are 5 cars in the showroom today.
+A new seller #54 just appeared.
+Seller 54 is trying to sell a car, but the showroom is full.
+A new buyer #43 just appeared.
+Buyer #43 bought a black car with registration 151-G-68858 worth €12123 from the showroom.
+This is purchase number 43.
+Seller 54 sold their black car with registration 182-G-71247 worth €10503 to the showroom.
+This is sale number 48.
+Seller 54 is trying to sell a car, but the showroom is full.
+Day 27 beginning. There are 5 cars in the showroom today.
+A new seller #55 just appeared.
+Seller 55 is trying to sell a car, but the showroom is full.
+A new seller #56 just appeared.
+Seller 56 is trying to sell a car, but the showroom is full.
+A new seller #57 just appeared.
+Seller 57 is trying to sell a car, but the showroom is full.
+A new buyer #44 just appeared.
+Buyer #44 bought a green car with registration 191-W-79616 worth €3103 from the showroom.
+This is purchase number 44.
+Seller 57 sold their red car with registration 182-G-55524 worth €18682 to the showroom.
+This is sale number 49.
+Seller 57 is trying to sell a car, but the showroom is full.
+Day 28 beginning. There are 5 cars in the showroom today.
+A new seller #58 just appeared.
+Seller 58 is trying to sell a car, but the showroom is full.
+A new seller #59 just appeared.
+Seller 59 is trying to sell a car, but the showroom is full.
+A new seller #60 just appeared.
+Seller 60 is trying to sell a car, but the showroom is full.
+A new buyer #45 just appeared.
+Buyer #45 bought a black car with registration 182-D-51954 worth €8725 from the showroom.
+This is purchase number 45.
+Seller 60 sold their green car with registration 151-D-39889 worth €4092 to the showroom.
+This is sale number 50.
+Seller 60 is trying to sell a car, but the showroom is full.
+A new buyer #46 just appeared.
+Buyer #46 bought a black car with registration 182-MO-50339 worth €13068 from the showroom.
+This is purchase number 46.
+Seller 60 sold their blue car with registration 151-D-67322 worth €18078 to the showroom.
+This is sale number 51.
+Seller 60 is trying to sell a car, but the showroom is full.
+A new buyer #47 just appeared.
+Buyer #47 bought a black car with registration 151-W-34833 worth €10286 from the showroom.
+This is purchase number 47.
+Seller 60 sold their green car with registration 151-D-19659 worth €6851 to the showroom.
+This is sale number 52.
+Seller 60 is trying to sell a car, but the showroom is full.
+Day 29 beginning. There are 5 cars in the showroom today.
+A new seller #61 just appeared.
+Seller 61 is trying to sell a car, but the showroom is full.
+A new seller #62 just appeared.
+Seller 62 is trying to sell a car, but the showroom is full.
+A new buyer #48 just appeared.
+Buyer #48 bought a black car with registration 182-G-71247 worth €10503 from the showroom.
+This is purchase number 48.
+Seller 62 sold their black car with registration 182-G-72296 worth €19359 to the showroom.
+This is sale number 53.
+Seller 62 is trying to sell a car, but the showroom is full.
+A new buyer #49 just appeared.
+Buyer #49 bought a red car with registration 182-G-55524 worth €18682 from the showroom.
+This is purchase number 49.
+Seller 62 sold their red car with registration 151-MO-21107 worth €7212 to the showroom.
+This is sale number 54.
+Seller 62 is trying to sell a car, but the showroom is full.
+Day 30 beginning. There are 5 cars in the showroom today.
+A new seller #63 just appeared.
+Seller 63 is trying to sell a car, but the showroom is full.
+A new seller #64 just appeared.
+Seller 64 is trying to sell a car, but the showroom is full.
+A new seller #65 just appeared.
+Seller 65 is trying to sell a car, but the showroom is full.
+A new buyer #50 just appeared.
+Buyer #50 bought a green car with registration 151-D-39889 worth €4092 from the showroom.
+This is purchase number 50.
+Seller 65 sold their blue car with registration 182-D-72051 worth €2693 to the showroom.
+This is sale number 55.
+Seller 65 is trying to sell a car, but the showroom is full.

@@ -3,7 +3,7 @@ package assignment2;
 import java.util.ArrayList;
 
 public class CarShowroom {
-    // variables
+    // Variables
     private int capacity;
     private ArrayList<Car> cars;
 
@@ -30,33 +30,24 @@ public class CarShowroom {
         this.cars = cars;
     }
 
-    // check if there are cars in the showroom
+    // Check if there are cars in the showroom
     public Boolean isEmpty(){
-        // use ArrayList's built-in isEmpty() method
+        // Use ArrayList's built-in isEmpty() method
         return this.cars.isEmpty();
     }
 
-    // check if the showroom is full
+    // Check if the showroom is full
     public Boolean isFull (){
         return this.cars.size() == this.capacity;
     }
 
-    // add a car to the showroom
-    public void addCar(Car car) {
-        synchronized (cars){
-            if(!isFull()){
-                this.cars.add(car);
-            }
-        }
+    // Sell a car to the showroom
+    public synchronized void addCar(Car car) {
+        this.cars.add(car);
     }
 
-    // take a car from the showroom
-    public Car takeCar(){
-        synchronized (cars) {
-            if(!isEmpty()){
-                return this.cars.remove(0);
-            }
-        }
-        return null;
+    // Buy a car from the showroom
+    public synchronized Car takeCar() {
+        return this.cars.remove(0);
     }
 }

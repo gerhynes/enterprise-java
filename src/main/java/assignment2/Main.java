@@ -7,7 +7,7 @@ public class Main {
         // Initialize carShowroom
         CarShowroom carShowroom = new CarShowroom();
 
-        // run carShowroom for 30 days
+        // Run carShowroom for 30 days
         int i = 1;
         while (i <= 30){
             // Notify user of new day in carShowroom
