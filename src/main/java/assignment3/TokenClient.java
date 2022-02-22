@@ -26,8 +26,8 @@ public class TokenClient {
         while(true) {
             String request = userInput.nextLine();
 
-            writer.print(request);
-            System.out.println("Sent " + request + " to server");
+            writer.println(request);
+            System.out.println("Sent '" + request + "' to server");
             writer.flush();
 
             if(request.startsWith("QUIT")) {
@@ -37,7 +37,7 @@ public class TokenClient {
             }
 
             String response = reader.nextLine();
-            System.out.println("Received message from server: " + response);
+            System.out.println("Received message from server: '" + response + "'");
         }
     }
 }

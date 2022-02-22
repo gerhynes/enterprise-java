@@ -4,23 +4,15 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.List;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class TokenServer {
     private Socket socket;
     private Scanner scanner;
     private PrintWriter writer;
-    private int totalTokens = 10;
-    private static List<String> tokens;
-
-    public static List<String> getTokens() {
-        return tokens;
-    }
-
-    public static void setTokens(List<String> tokens) {
-        TokenServer.tokens = tokens;
-    }
+    private int maxTokens = 10;
+    private static ArrayList<String> tokens = new ArrayList<String>();
 
     public static String getTokensAsString() {
         String tokenStr = "";
@@ -50,7 +42,7 @@ public class TokenServer {
             try {
                 scanner = new Scanner(socket.getInputStream());
                 writer = new PrintWriter(socket.getOutputStream());
-                doService();
+                handleRequest();
             } finally {
                 socket.close();
             }
@@ -59,41 +51,38 @@ public class TokenServer {
         }
     }
 
-    public void doService() throws IOException {
-
+    public void handleRequest() throws IOException {
         while (true) {
             if (!scanner.hasNext()) {
                 return;
             }
 
-            String request = scanner.nextLine(); // why you no work?!
-            System.out.println("Received message from client: " + request);
+            String request = scanner.nextLine();
+            System.out.println("Received message from client: '" + request + "'");
 
-            // test for type of request
-
-            handleTokenRequest(request);
+            // Check type of submission
+            if (request.startsWith("SUBMIT")) {
+                String token = request.split(" ")[1];
+                handleSubmit(token);
+            } else if (request.startsWith("RETRIEVE")) {
+                // Return tokens as strings with whitespace
+                writer.println(getTokensAsString());
+            } else if (request.startsWith("QUIT")) {
+                // End connection to that client. No reply
+                socket.close();
+            } else {
+                System.err.println("Unknown request");
+            }
+            writer.flush();
         }
     }
 
-    public void handleTokenRequest(String request) throws IOException {
-        System.out.println("Received message from client: " + request);
-
-        if (request.startsWith("SUBMIT")) {
-            System.out.println(request.split(" ")[1]);
-//            String token = request.split(" ")[1];
-//            if (tokens.size() == totalTokens) {
-//                writer.println("ERROR");
-//            } else {
-//                tokens.add(token);
-//            }
-        } else if (request.startsWith("RETRIEVE")) {
-            writer.println(getTokensAsString());
-        } else if (request.startsWith("QUIT")) {
-            // End connection to that client. No reply
-            socket.close();
+    public void handleSubmit(String token) {
+        if (tokens.size() == maxTokens) {
+            writer.println("ERROR");
         } else {
-            System.err.println("Unknown request");
+            tokens.add(token);
+            writer.println("OK");
         }
-        writer.flush();
     }
 }
