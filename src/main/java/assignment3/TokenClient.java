@@ -18,11 +18,11 @@ public class TokenClient {
         Scanner userInput = new Scanner(System.in);
 
         // Print instructions
-        System.out.println("Enter one of these 3 commands:\n" +
+        System.out.println("Enter one of these three commands:\n" +
                 "SUBMIT token - sends token (word) to server\n" +
                 "RETRIEVE - gets all tokens (words) from server\n" +
                 "QUIT - ends programme\n" +
-                "Press Enter to send command");
+                "Press Enter to send command\n");
 
         while(true) {
             // Take in request message
