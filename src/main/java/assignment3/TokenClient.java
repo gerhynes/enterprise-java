@@ -9,12 +9,13 @@ import java.util.Scanner;
 
 public class TokenClient {
     public static void main(String[] args) throws IOException {
+        // Establish socket and streams
         Socket socket = new Socket("localhost", 8080);
         InputStream inputStream = socket.getInputStream();
         OutputStream outputStream = socket.getOutputStream();
         Scanner reader = new Scanner(inputStream);
-        Scanner userInput = new Scanner(System.in);
         PrintWriter writer = new PrintWriter(outputStream);
+        Scanner userInput = new Scanner(System.in);
 
         // Print instructions
         System.out.println("Enter one of these 3 commands:\n" +
@@ -24,18 +25,23 @@ public class TokenClient {
                 "Press Enter to send command");
 
         while(true) {
+            // Take in request message
             String request = userInput.nextLine();
 
+            // Send request message
             writer.println(request);
             System.out.println("Sent '" + request + "' to server");
             writer.flush();
 
+            // Handle QUIT message
             if(request.startsWith("QUIT")) {
                 System.out.println("Quitting");
                 socket.close();
+                userInput.close();
                 break;
             }
 
+            // Take in response message
             String response = reader.nextLine();
             System.out.println("Received message from server: '" + response + "'");
         }
